@@ -5,10 +5,7 @@
 輸入 input 檔案的檔名。
 
 ## 程式的流程
-	1. 讀入 T/NT Taken 序列
-	2. 輸入 Predictor 初始狀態00
-	3. 進行(T/N)預測
-	4. 計算 Misprediction rate
+	1. 讀入 T/NT  序列	2. 輸入 Predictor 初始狀態00	3. T/N預測 4. 計算 Misprediction rate
 	5. 輸出的最終結果
 
 ## FUNCTION
@@ -23,7 +20,7 @@ bool two_bit_predictor(int index);
 		T NT T T T NT NT NT NT
 		NT NT T T T T NT T NT
 
-簡單來說以上總共有五筆的測資
+簡單來說以上總共有兩筆的測資
 
 ## OUTPUT
 輸出檔包含 Prediction、Miss or not 以及 Misprediction rate。
