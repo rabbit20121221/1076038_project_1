@@ -15,7 +15,7 @@
 bool two_bit_predictor(int index);
 此 function 用來預測 Taken 或 Not Taken，並回傳下一個狀態(state)。
 
-## INPUT FILE
+## INPUT
 輸入檔包含 T(Taken) 及 NT(Not Taken)。
 * **Example:** test1.txt
 
@@ -24,7 +24,7 @@ bool two_bit_predictor(int index);
 
 以上總共 5 比測試資料
 
-## OUTPUT FILE
+## OUTPUT
 輸出檔包含 Prediction、Miss or not 以及 Misprediction rate。
 * **Example:** output.txt
 	
