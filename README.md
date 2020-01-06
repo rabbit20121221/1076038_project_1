@@ -17,24 +17,26 @@ bool two_bit_predictor(int index);
 
 ## INPUT FILE
 輸入檔包含 T(Taken) 及 NT(Not Taken)。
-* **Example: ** test1.txt
-T NT T T T NT NT NT NT
-NT NT T T T T NT T NT
+* **Example:** test1.txt
+
+		T NT T T T NT NT NT NT
+		NT NT T T T T NT T NT
 
 以上總共 5 比測試資料
 
 ## OUTPUT FILE
 輸出檔包含 Prediction、Miss or not 以及 Misprediction rate。
-* **Example: ** output.txt
-  State: 00 01 00 01 10 11 10 01 00 
-  Input: T NT T T T NT NT NT NT 
-  Prediction: N N N N T T T N N 
-  Miss or not: X O X X O X X O O 
-  Misprediction rate: 5/9
+* **Example:** output.txt
+	
+		State: 00 01 00 01 10 11 10 01 00 
+		Input: T NT T T T NT NT NT NT 
+		Prediction: N N N N T T T N N 
+ 		Miss or not: X O X X O X X O O 
+  		Misprediction rate: 5/9
   
-  State: 00 00 00 01 10 11 11 10 11 
-  Input: NT NT T T T T NT T NT 
-  Prediction: N N N N T T T T T 
-  Miss or not: O O X X O O X O X 
-  Misprediction rate: 4/9
+  		State: 00 00 00 01 10 11 11 10 11 
+  		Input: NT NT T T T T NT T NT 
+  		Prediction: N N N N T T T T T 
+  		Miss or not: O O X X O O X O X 
+  		Misprediction rate: 4/9
 
