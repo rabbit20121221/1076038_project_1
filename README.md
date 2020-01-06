@@ -1,6 +1,4 @@
-# 1076038_project_1
-
-## 1076038 2-bit Predictor
+# 1076038 Project 1 - 2-bit Predictor
 此檔案介紹如何使用此程式
 
 ## 執行方式
