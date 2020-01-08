@@ -1,24 +1,17 @@
 # 1076038 Project 1 - 2-bit Predictor
 此檔案介紹如何正確的使用本程式，來達成所需要完成的事
 
-## 執行的形式
-輸入 input 檔案的檔名。
+## 執行的形式 輸入 input 檔案的檔名。
 
-## 程式的流程
-	1. 讀入 T/NT  序列	2. 輸入 Predictor 初始狀態00	3. T/N預測 4. 計算 Misprediction rate
-	5. 輸出的最終結果
+## 程式的流程	1. 讀入 T/NT  序列	2. 輸入 Predictor 初始狀態00	3. T/N預測 4. 計算 Misprediction rate 5. 輸出的最終結果
 
 ## FUNCTION
-bool two_bit_predictor(int index);
-此 function 用來預測 T 或 NT，
-並回傳至下一個狀態。
+
+此 function 用來預測 T 或 NT，並回傳至下一個狀態。
 
 ## INPUT
 輸入檔包含 T(Taken) 及 NT(Not Taken)。
-* **Example:** test1.txt
 
-		T NT T T T NT NT NT NT
-		NT NT T T T T NT T NT
 
 簡單來說以上總共有兩筆的測資
 
